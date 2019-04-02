@@ -1,0 +1,20 @@
+{
+  "name": "maitri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitasaurus/maitri.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitasaurus/maitri/issues"
+  },
+  "homepage": "https://github.com/amitasaurus/maitri#readme"
+}
