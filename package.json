@@ -1,7 +1,7 @@
 {
   "name": "maitri",
   "version": "1.0.0",
-  "description": "",
+  "description": "Frontend Codebase For Maitri",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/amitasaurus/maitri/issues"
   },
-  "homepage": "https://github.com/amitasaurus/maitri#readme"
+  "homepage": "https://github.com/amitasaurus/maitri#readme",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-csso": "3.0.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-uglify": "3.0.2"
+  }
 }

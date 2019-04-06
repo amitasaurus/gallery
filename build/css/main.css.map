@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.css"],"names":[],"mappings":"AAAA,I,CACA,mB,CAAA,mB,CAAA,Y,CACA,2B,CAAA,4B,CAAA,yB,CAAA,qB","file":"main.css","sourcesContent":["body {\n  display: flex;\n  flex-direction: column; }\n"]}
