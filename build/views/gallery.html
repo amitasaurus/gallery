@@ -1,4 +1,5 @@
 <div class="gallery">
+    <!-- Build a header -->
     <div class="gallery__container">
         <div class="gallery__media__container" ng-repeat="i in images track by $index">
             <div class="gallery__media__backdrop" layout="column">
@@ -7,10 +8,16 @@
                     <i class="material-icons">play_circle_filled</i>
                 </div>
             </div>
-            <img src="build/images/placeholder__image.png" class="gallery__media" ng-src="https://source.unsplash.com/collection/458163?sig={{$index}}">
+            <img src="build/images/placeholder__image.png" class="gallery__media" ng-src="https://source.unsplash.com/collection/1103088?sig={{$index}}">
         </div>
     </div>
 </div>
-<div class="gallery__filter">
-	<img src="build/images/filter--white.png" width="24" height="24">
+<div class="gallery__filter no-focus" ng-class="filterCtrl.isActive ? '' : 'gallery__filter--visible'" ng-click="filterCtrl.display()">
+    <img src="build/images/filter--white.png" width="24" height="24">
+</div>
+<div class="gallery__tag__container__backdrop" ng-class="filterCtrl.isActive ? 'gallery__tag__container__backdrop--visible' : ''" ng-click="filterCtrl.hide()">
+    <div class="gallery__tag__container" ng-class="filterCtrl.isActive ? 'gallery__tag__container--visible' : ''">
+        <div class="gallery__tag__heading">Filter images by: </div>
+        <div class="gallery__tag no-focus" ng-repeat="tag in ['Candid', 'Porait', 'Only Me', 'Family', 'Stage']" ng-click="filterCtrl.update(tag)">{{tag}}</div>
+    </div>
 </div>

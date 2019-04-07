@@ -1,0 +1,15 @@
+@mixin font-normal($size){
+  font: {
+    family: 'Open Sans',sans-serif !important;
+    weight: 400;
+    size: $size
+  }
+}
+
+@mixin font-bold($size){
+  font: {
+    family: 'Open Sans',sans-serif !important;
+    weight: 700;
+    size: $size
+  }
+}

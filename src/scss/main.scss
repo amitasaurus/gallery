@@ -2,3 +2,9 @@ body{
 	display: flex;
 	flex-direction: column;
 }
+.no-focus{
+	&:focus{
+		outline: none;
+		border: none;
+	}
+}
