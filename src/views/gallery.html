@@ -1,5 +1,25 @@
 <div class="gallery">
-    <!-- Build a header -->
+
+    <div class="gallery__header">
+        <div class="gallery__header__image">
+            <img src="https://source.unsplash.com/collection/962169" class="image">
+            <div class="cover"></div>
+        </div>
+        <div class="gallery__header__main">
+            <div class="gallery__header__main__inner">
+                <div class="gallery__event__name">
+                Pre Wedding Shoot
+            </div>
+            <div class="gallery__event__about">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </div>
+            <div class="gallery__event__date">
+                05/07/2013
+            </div>
+            </div>
+        </div>
+    </div>
+
     <div class="gallery__container">
         <div class="gallery__media__container" ng-repeat="i in images track by $index">
             <div class="gallery__media__backdrop" layout="column">
@@ -8,7 +28,7 @@
                     <i class="material-icons">play_circle_filled</i>
                 </div>
             </div>
-            <img src="build/images/placeholder__image.png" class="gallery__media" ng-src="https://source.unsplash.com/collection/1103088?sig={{$index}}">
+            <img src="build/images/placeholder__image.png" class="gallery__media" ng-src="https://source.unsplash.com/collection/362199?sig={{$index}}">
         </div>
     </div>
 </div>
