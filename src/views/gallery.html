@@ -1,0 +1,16 @@
+<div class="gallery">
+    <div class="gallery__container">
+        <div class="gallery__media__container" ng-repeat="i in images track by $index">
+            <div class="gallery__media__backdrop" layout="column">
+                <div layout="row" class="gallery__media__type" ng-if="$even">
+                    <span flex></span>
+                    <i class="material-icons">play_circle_filled</i>
+                </div>
+            </div>
+            <img src="build/images/placeholder__image.png" class="gallery__media" ng-src="https://source.unsplash.com/collection/458163?sig={{$index}}">
+        </div>
+    </div>
+</div>
+<div class="gallery__filter">
+	<img src="build/images/filter--white.png" width="24" height="24">
+</div>
