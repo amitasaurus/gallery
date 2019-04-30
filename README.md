@@ -1,1 +1,1 @@
-# maitri
+# gallery
